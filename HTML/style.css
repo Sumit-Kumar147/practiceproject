@@ -1,0 +1,161 @@
+ .container{
+    background-image: url(pexels-pok-rie-5269340.jpg);
+    height: 100vh;
+    background-size: cover;
+ }
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color:whitesmoke; 
+}
+ .menu{
+    width: 400px;
+    float: left;
+    height:70px
+ }
+ul{
+    float: left;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 1px;
+    font-size: 20px;
+     
+}
+ul li a{
+    text-decoration: underline;
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+ul li a:active{
+    color: blueviolet;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 450px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background:skyblue;
+    border: 3px solid yellow;
+    margin-top: 15px;
+    color: red;
+    border-radius: 5px;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: yellow;
+    border: 2px;
+    margin-top: 15px;
+    color: red;
+    font-size: 16px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.form{
+    width: 250px;
+    height:380px;
+    background: linear-gradient(to top, skyblue 50%,skyblue  50%);
+    position:absolute;
+    bottom: 120px;
+     left: 1000px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height:35px;
+    background: transparent;
+    border-bottom: 1px solid yellow;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color:skyblue;
+     font-size: 15px;
+     letter-spacing: 1px;
+     margin-top: 30px;
+     font-family: sans-serif;
+
+}
+ .form input:focus{
+    outline: none;
+ }
+ ::placeholder{
+    color: white;
+    font-family: Arial; 
+ }
+ .btnn{
+    width: 240px;
+    height:40px;
+    background: yellow;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    transition: 0.4s ease;
+ }
+ .btnn:hover{
+    background: green;
+    color: red;
+ }
+ .btnn a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+ }
+ .form.link {
+    font-family: Arial;
+    font-size:17px;
+    padding-top: 20px;
+    text-align: center;
+ }
+ .form .link.a{
+    text-decoration: none;
+    color:red;
+ }
+ .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+ }
+ .icons a{
+    text-decoration: none;
+    color: yellow;
+ }
+ .icons ion-icon{
+    color: red;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+ }
+ 
